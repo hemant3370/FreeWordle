@@ -1,0 +1,2 @@
+# FreeWordle
+Free Wordle App
