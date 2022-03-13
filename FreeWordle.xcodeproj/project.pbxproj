@@ -14,11 +14,11 @@
 		544E3B3727DC71A900ACD898 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 544E3B3627DC71A900ACD898 /* ComposableArchitecture */; };
 		544E3B3927DC75A500ACD898 /* WRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544E3B3827DC75A500ACD898 /* WRowView.swift */; };
 		544E3B3B27DC75F600ACD898 /* AlphabetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544E3B3A27DC75F600ACD898 /* AlphabetView.swift */; };
-		544E3B3D27DC770B00ACD898 /* WordleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544E3B3C27DC770B00ACD898 /* WordleView.swift */; };
 		544E3B4227DC94F900ACD898 /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544E3B4127DC94F900ACD898 /* KeyboardView.swift */; };
 		544E3B5027DCE78000ACD898 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544E3B4F27DCE78000ACD898 /* Colors.swift */; };
 		544E3B5227DCF08400ACD898 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544E3B5127DCF08400ACD898 /* AppState.swift */; };
 		544E3B5427DCF1E100ACD898 /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544E3B5327DCF1E100ACD898 /* AppReducer.swift */; };
+		547C09D427DDB94B008D4EF9 /* FiveLetterWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547C09D327DDB94B008D4EF9 /* FiveLetterWords.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,11 +29,11 @@
 		544E3B2E27DC70E800ACD898 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		544E3B3827DC75A500ACD898 /* WRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WRowView.swift; sourceTree = "<group>"; };
 		544E3B3A27DC75F600ACD898 /* AlphabetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphabetView.swift; sourceTree = "<group>"; };
-		544E3B3C27DC770B00ACD898 /* WordleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleView.swift; sourceTree = "<group>"; };
 		544E3B4127DC94F900ACD898 /* KeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
 		544E3B4F27DCE78000ACD898 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		544E3B5127DCF08400ACD898 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		544E3B5327DCF1E100ACD898 /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
+		547C09D327DDB94B008D4EF9 /* FiveLetterWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveLetterWords.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,10 +74,10 @@
 				544E3B2D27DC70E800ACD898 /* Preview Content */,
 				544E3B3827DC75A500ACD898 /* WRowView.swift */,
 				544E3B3A27DC75F600ACD898 /* AlphabetView.swift */,
-				544E3B3C27DC770B00ACD898 /* WordleView.swift */,
 				544E3B4127DC94F900ACD898 /* KeyboardView.swift */,
 				544E3B5127DCF08400ACD898 /* AppState.swift */,
 				544E3B5327DCF1E100ACD898 /* AppReducer.swift */,
+				547C09D327DDB94B008D4EF9 /* FiveLetterWords.swift */,
 			);
 			path = FreeWordle;
 			sourceTree = "<group>";
@@ -175,13 +175,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				544E3B3927DC75A500ACD898 /* WRowView.swift in Sources */,
-				544E3B3D27DC770B00ACD898 /* WordleView.swift in Sources */,
 				544E3B3B27DC75F600ACD898 /* AlphabetView.swift in Sources */,
 				544E3B5427DCF1E100ACD898 /* AppReducer.swift in Sources */,
 				544E3B5227DCF08400ACD898 /* AppState.swift in Sources */,
 				544E3B5027DCE78000ACD898 /* Colors.swift in Sources */,
 				544E3B4227DC94F900ACD898 /* KeyboardView.swift in Sources */,
 				544E3B2A27DC70E700ACD898 /* ContentView.swift in Sources */,
+				547C09D427DDB94B008D4EF9 /* FiveLetterWords.swift in Sources */,
 				544E3B2827DC70E700ACD898 /* FreeWordleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

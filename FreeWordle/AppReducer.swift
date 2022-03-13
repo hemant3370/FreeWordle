@@ -47,6 +47,8 @@ let appReducer = Reducer<AppState, AppAction, AppEnvironment> { state, action, e
                     }
                     if word == state.word {
                         state.alert = .init(title: .init("Wow"), message: .init("\(word) is correct"), dismissButton: .cancel(.init("Yay!"), action: .send(.reset)))
+                    } else if state.rowIndex == 4 {
+                        state.alert = .init(title: .init("Alas"), message: .init("\(state.word) is the correct word"), dismissButton: .cancel(.init("Hmm"), action: .send(.reset)))
                     } else {
                         state.rowIndex += 1
                         state.keyIndex = 0
