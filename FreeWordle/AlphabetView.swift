@@ -13,8 +13,8 @@ struct AlphabetView: View {
         Button(action: {
             
         }, label: {
-            Text(entry.value.description).bold().foregroundColor(.white)
-        }).frame(width: 44, height: 50, alignment: .center).background(entry.state.color()).cornerRadius(4)
+            Text(entry.value.description).bold().foregroundColor(.white).padding()
+        }).background(entry.state.color()).cornerRadius(4)
     }
 }
 

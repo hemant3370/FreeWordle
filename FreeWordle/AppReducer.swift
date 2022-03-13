@@ -13,7 +13,7 @@ let appReducer = Reducer<AppState, AppAction, AppEnvironment> { state, action, e
     case .dismissAlert:
         state.alert = nil
     case .reset:
-        state = initialState
+        state = makeInitialState()
     case .keboard(let keyboardAction):
         switch keyboardAction {
         case .enterkey(let entry):

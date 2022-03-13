@@ -10,7 +10,7 @@ import ComposableArchitecture
 
 struct ContentView: View {
     let store: Store<AppState, AppAction> = Store(
-        initialState: initialState,
+        initialState: makeInitialState(),
       reducer: appReducer,
       environment: AppEnvironment(
         mainQueue: .main
