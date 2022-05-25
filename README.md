@@ -1,5 +1,5 @@
 # FreeWordle
-Free Wordle App
+Free Wordle App made using SwiftUI and The composable architecture.
 
 
 
